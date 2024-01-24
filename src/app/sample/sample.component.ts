@@ -1,11 +1,12 @@
 import { Component } from "@angular/core";
-import { ButtonComponent } from "../button/button.component";
 import { CommonModule } from "@angular/common";
+import { ButtonComponent, ChipComponent } from "root";
+import {} from "root";
 
 @Component({
     selector: "app-sample",
     standalone: true,
-    imports: [ButtonComponent, CommonModule],
+    imports: [ButtonComponent, CommonModule, ChipComponent],
     templateUrl: "./sample.component.html",
     styleUrl: "./sample.component.sass",
 })

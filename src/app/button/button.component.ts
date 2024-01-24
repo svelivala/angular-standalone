@@ -8,7 +8,7 @@ import { Component, Input } from "@angular/core";
     templateUrl: "./button.component.html",
     styleUrl: "./button.component.sass",
 })
-export class MyButtonComponent {
+export class ButtonComponent {
     @Input() size = "sm";
     @Input() title = "";
     @Input() type = "primary";
